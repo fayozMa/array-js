@@ -1,4 +1,4 @@
-let input = 'salom'
+let input = prompt("NImadir yozing")
 let array = input.split('')
 array = array.reverse()
 array = array.join("")
