@@ -7,9 +7,9 @@ function func1(i, arr = []) {
     }
 }
 function func2() {
-    let prompt = 5
-    if (!isNaN(prompt) && prompt >= 0) {
-        let numbers = func1(prompt);
+    let userInput = +prompt("son kiriting: ")
+    if (!isNaN(userInput) && userInput >= 0) {
+        let numbers = func1(userInput);
         console.log(numbers.reverse());
     }
 }
